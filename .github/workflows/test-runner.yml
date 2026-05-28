@@ -9,10 +9,4 @@ jobs:
     steps:
       - name: Nachricht senden
         run: echo "Hallo von Linux Mint! Der Runner funktioniert!"
-
-      - name: Node Version abfragen
-        run: node -v
-
-      - name: Docker Version abfragen
-        run: docker --verion
             
